@@ -1,0 +1,68 @@
+.container-1 {
+    display: flex;
+    width: 100%;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    @include backgroundImage ("https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+    @include h2h3;
+
+    div {
+        @include divHorizontal;
+    }
+}
+
+.container-1 p {
+    margin-top: 10%;
+    color: $color1;
+}
+
+.container-general {
+    @include container-general;
+}
+
+.container-text {
+    width: 45%;
+    height: 70vh;
+    padding: 3%;
+}
+
+.container-text h2 {
+    margin-bottom: 4%;
+}
+
+.container-image {
+    width: 45%;
+    height: 70vh;
+    padding: 3%;
+}
+
+.container-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-p {
+    color: rgb(39, 39, 39);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(238, 236, 236);
+}
+
+.container-p p {
+    line-height: 200%;
+    text-align: center;
+}
+
+#bold {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 3%;
+}
